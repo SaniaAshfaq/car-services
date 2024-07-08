@@ -25,7 +25,7 @@ export default function Faqs(){
         <>
         
         <div className=" bg-[#EBF4FF] py-12 md:py-20 flex items-center justify-center flex-col w-full">
-            <h1 className=" text-[35px] tracking-tight md:text-[40px] font-Oswald leading-[50.9px] text-center font-semibold">frequently Asked Question's</h1>
+            <h1 className=" text-[35px] tracking-tight md:text-[40px] font-Oswald leading-[50.9px] text-center font-semibold">frequently Asked Question &apos; s</h1>
 
 
             <div className=" flex w-4/5 cursor-pointer lg:flex-row flex-col items-center lg:items-start my-4">
