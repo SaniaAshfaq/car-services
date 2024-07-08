@@ -2,7 +2,7 @@ import Image from "next/image";
 import pricinghero from '../../../public/Images/pricinghero.png';
 import pricingblack from '../../../public/Images/pricingblack.png';
 import pricingIcon from '../../../public/Images/pricingIcon.png';
-import pricingIcon2 from '../../../public/Images/pricingIcon2.png';
+import pricingIcon2 from '../../../public/Images/pricingicon2.png';
 import pricingtik from '../../../public/Images/pricingtik.png';
 export default function Pricing()
 {
