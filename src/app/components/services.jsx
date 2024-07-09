@@ -26,7 +26,7 @@ export default function Services()
                <ServicesSection name="Brake Replacement"/>
                <ServicesSection name="Replace gears"/>
             </div>
-            <div className=" w-[97%]  md:w-3/4 lg:w-1/3" data-aos="flip-right">
+            <div className=" w-[97%]  md:w-3/4 lg:w-1/3" data-aos="fade-up">
           <Image src ={serviceshero} alt="servicesHero" className=" w-full h-full"/>
             </div>
 

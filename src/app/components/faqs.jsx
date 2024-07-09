@@ -36,8 +36,8 @@ export default function Faqs(){
                 faq.map((value , index)=>{
                     return(
                     <div className="  px-4 w-full " key={value.id}>
-                        <div className="bg-[white] flex justify-between p-5 my-4 gap-4"  data-aos="fade-up-right">
-                        <h1 className=" text-[14px] md:text-[16px]">{value.id} . {value.question}</h1>
+                        <div className="bg-[white] flex justify-between p-2 md:p-5 my-4 gap-4"  data-aos="fade-up-right">
+                        <h1 className=" text-[15px] md:text-[16px]">{value.id} . {value.question}</h1>
                           <div>
                           <button onClick={clicked} id={value.id}>
                             {(value.id == clickedid)  ?
@@ -65,8 +65,8 @@ export default function Faqs(){
                 faq1.map((value , index)=>{
                     return(
                     <div className="  px-4 w-full " key={value.id} >
-                        <div className=" bg-[white] flex justify-between p-5 my-4 gap-4"  data-aos="fade-up-right">
-                        <h1 className=" text-[14px] md:text-[16px]">{value.id} . {value.question}</h1>
+                        <div className=" bg-[white] flex justify-between p-2 md:p-5 my-4 gap-4"  data-aos="fade-up-right">
+                        <h1 className=" text-[15px] md:text-[16px]">{value.id} . {value.question}</h1>
                           <div>
                           <button onClick={clicked} id={value.id}>
                             {(value.id == clickedid)  ?

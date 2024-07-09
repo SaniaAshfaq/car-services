@@ -31,7 +31,7 @@ export function PricingCard(props)
     return(
         <>
          <div className=" bg-white w-[275px] md:w-[300px] p-3 rounded-lg"  data-aos="fade-up"
-     data-aos-duration="2000">
+     data-aos-duration="1000">
                     <Image src ={props.image} alt="icon" width={40} height={40}/>
                     <h2 className=" font-Oswald text-[20px] my-2 font-semibold">{props.name}</h2>
                     <h2 className=" font-Oswlad text-[24px] font-semibold text-[#0059E6] my-2">$100/Service</h2>

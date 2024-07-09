@@ -10,7 +10,7 @@ export default function Member()
             <Image src={memberimg} alt = "memberbg" className=" absolute top-0 w-full h-full -z-20"  />
             <div className="flex items-center justify-around md:flex-row flex-col">
                 <div className=" w-[97%] md:w-1/3 ml-12"  data-aos="fade-right"
-     data-aos-offset="300"
+    
      data-aos-easing="ease-in-sine">
                     <h1 className=" text-[35px] md:text-[40px] font-Oswald font-semibold">Why Become a Member</h1>
                     <p className="font-Roboto my-5 w-11/12">Discover the secrets to a smoother ride! From routine upkeep to pro tips, our site offers comprehensive guidance on car maintenance, ensuring your vehicle stays in peak condition.</p>
@@ -18,7 +18,7 @@ export default function Member()
                 </div>
                 <div className=" w-[97%] md:w-2/5" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="1000">
                     <Image src={memberhero} alt="memberhero"/>
                 </div>
             </div>
