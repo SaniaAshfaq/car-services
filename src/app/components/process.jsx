@@ -30,7 +30,7 @@ export default function Process()
             <div className=" flex lg:gap-10 lg:py-24 py-8 flex-col gap-12 lg:flex-row">
                 {/* this div is holding singal card */}
 
-         <div>
+         <div  data-aos="fade-down-right">
             <div className="  flex gap-4 lg:flex-row flex-col items-center justify-center lg:justify-normal lg:items-start">
                  <div className=" bg-[#018FFC] w-[59px] h-[59px] rounded-full flex items-center justify-center text-white font-bold text-[18px]">01</div>
                  <div className="text-center lg:text-left">
@@ -59,7 +59,7 @@ export default function Process()
 
 
               {/* this div is holding singal card */}
-         <div>
+         <div data-aos="fade-down-right">
             <div className="  flex gap-4 lg:flex-row flex-col items-center justify-center lg:justify-normal lg:items-start">
                  <div className=" bg-[#0058E6] w-[59px] h-[59px] rounded-full flex items-center justify-center text-white font-bold text-[18px]">02</div>
                  <div className="text-center lg:text-left">
@@ -86,7 +86,7 @@ export default function Process()
 
 
               {/* this div is holding singal card */}
-         <div>
+         <div data-aos="fade-down-right">
             <div className=" flex gap-4 lg:flex-row flex-col items-center justify-center lg:justify-normal lg:items-start">
                  <div className=" bg-[#22A960] w-[59px] h-[59px] rounded-full flex items-center justify-center text-white font-bold text-[18px]">03</div>
                  <div className=" text-center lg:text-left">
